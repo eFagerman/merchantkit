@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "MerchantKit",
+    defaultLocalization: "en",
     platforms: [
         .iOS(.v10), .macOS(.v11)
     ],
