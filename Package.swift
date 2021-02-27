@@ -25,10 +25,6 @@ let package = Package(
         .target(
             name: "MerchantKit",
             dependencies: [],
-            path: "Source"),
-        .testTarget(
-            name: "MerchantKitTests",
-            dependencies: ["MerchantKit"],
-            path: "Tests")
+            path: "Source")
     ]
 )
